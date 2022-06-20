@@ -54,19 +54,6 @@ function busqueda(){
         }
 }
 
-// function cargarProductos() {
-//     debugger
-//     listadoFrutas.innerHTML = ""
-//     for (const producto of productos){
-//         const li = document.createElement("li")
-//                 li.className = "collection-item blue-text"
-//                 li.innerText = producto
-//                 li.id = producto + "Prod"
-//                 listadoFrutas.append(li)
-//         listadoFrutas.innerHTML += "<li class='collection-item'>"+producto+"</li>"
-//     }
-// }
-
 const cartelPersonal = document.getElementById("cartelPersonal")
 
 function presupuestarCartel(){
